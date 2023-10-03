@@ -1,0 +1,21 @@
+    h1,h2,p {
+        color: whitesmoke;
+        text-align: center;
+    }
+    body {
+        background-color: gray;
+    }
+    h1 {
+        border: 2px dotted black;
+        background-color: red;
+        border-radius: 25px ;
+    }
+    h2 {border: 5px double green;
+        margin: bottom 100px ;
+        background-color: rgb(44, 88, 0);
+    }
+    p {
+    color: rgb(183, 235, 255);
+    border-style: outset;
+    background-color: rgb(109, 139, 255);
+    }
