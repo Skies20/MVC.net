@@ -2,39 +2,98 @@
 <html lang="en">
 <head>
     <style>
-        table, th, td {
-            border: 3px solid black;
-            border-collapse: collapse;
+    table , th , td{
+        border: 3px solid black;
+        border-collapse:collapse;
+    }
+    #board{
+        width: 100px;
+    }
+    #board, tr, th {
+        text-align: center;
+    }
+    .boys {
+        background-color: aqua;
+    }
+    .girls {
+        background-color: fuchsia;
+    }
 
-        }
-    </style>
+</style>
 </head>
 <body>
+    
+<h1>Seating Arrangement Table</h1>
 
-    <h1> Seating Arrangement Table</h1>
+<table id="Board">
 
-    <table>
-        <br>
-        <th>Black board</th>
         <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-        <th>Column 4</th>
-        <th>Column 5</th>
-        <th>Column 6</th>
-        </tr>
+        
+            <th colspan="6" Board>Black Board</th>
+            <td rowspan="9">daanan</td>
+    </tr>
+        
+        <td colspan="6" id="ST"> Teacher</td>
+       </tr>
+
         <tr>
-        <tr>Student 1</tr>
-        <tr>Student 2</tr>
-        <tr>Student 3</tr>
-        <tr>Student 4</tr>
-        <tr>Student 5</tr>
-        <tr>Student 6</tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+        <td>Column 4</td>
+        <td>Column 5</td>
+        <td>Column 6</td>
         </tr>
+
+
+        <tr>
+        <td class="girls">Alexandra</td>
+        <td class="girls">Campo</td>
+        <td class="boys">Xymon</td>
+        <td class="girls">Ramiscal</td>
+        <td class="girls">Chemira</td>
+        <td class="girls">Kathlainne</td>
+       </tr><tr>
+
+        <td class="boys">Ericson</td>
+        <td>Blank</td>
+        <td class="boys">Kent</td>
+        <td class="boys">Kean</td>
+        <td class="girls">Analiza</td>
+        <td class="girls">Lorraine</td>
+       </tr><tr>
+        <td class="boys">Tidde</td>
+        <td>Blank</td>
+        <td class="boys">Mahinay</td>
+        <td class="boys">Bonifacio</td>
+        <td class="boys">Tubera</td>
+        <td class="boys">Timan</td>
+       </tr><tr>
+        <td class="boys">Pascual</td>
+        <td class="boys">Jordan</td>
+        <td class="boys">Ocasla</td>
+        <td class="boys">Passiona</td>
+        <td class="boys">Omar</td>
+        <td class="boys">Sta. maria</td>
+       </tr>
+       <tr>
+        <td class="boys">Villuaneava</td>
+        <td class="boys">Villaverde</td>
+        <td class="boys">Castillo</td>
+        <td class="boys">Lumanog</td>
+        <td class="boys">Reymond</td>
+        <td>Blank</td>
+       </tr>
+       <tr>
+        <td class="boys">Avion</td>
+        <td>Blank</td>
+        <td>Blank</td>
+        <td class="boys">Ireneo</td>
+        <td>Blank</td>
+        <td>Blank</td>
+       </tr>
+       
     </table>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
 </body>
+
 </html>
