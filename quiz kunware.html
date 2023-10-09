@@ -3,21 +3,15 @@
 <head>
     <style>
     table , th, td {
-        border: 2px double black;
-        border-collapse:collapse; 
+        border: 1px solid skyblue;
+        border-collapse:separate; text-align: center;
     }
-    #board{
-        width: 100%;
-    
+    {
+        width: 100%; height: 100%;
     }
-   
-    #ST {
-        text-align: center;
-    }
-
  </style>
 </head>
-<body>
+<body style="background-color: black; color: white;">
 
 <table id="Board">
 
@@ -26,78 +20,83 @@
             <th colspan="4" Board>Quiz # 1</th>
     </tr>
         
-        <td colspan="4" id="ST">Ireneo D. Seraspe Jr</td>
+        <tr>
+        <th colspan="4" id="ST">Ireneo D. Seraspe Jr</th>
        </tr>
 
         <tr>
-        <th colspan="2">Primary Color</th>
-        <th colspan="2">Secondary Color</th>
+        <th colspan="2" style="background-color: white; color: black;">Primary Color</th>
+        <th colspan="2" style="background-color: white; color: black;">Secondary Color</th>
         </tr>
 
         <tr>
-        <th colspan="2">Blue color background/ yellow font</th>
-        <th colspan="2">Green color background</th>
+        <td colspan="2" style="background-color: blue; color: yellow;">Blue color background/ yellow font</td>
+        <td colspan="2" style="background-color: green;">Green color background</td>
         </tr>
         
         <tr>
-        <td colspan="2">Red color background/White Font</td>
-        <td colspan="2">Orange color background</td>
+        <td colspan="2" style="background-color: red;">Red color background/White Font</td>
+        <td colspan="2" style="background-color: orange; color: black;">Orange color background</td>
         </tr>
 
         <tr>
-        <td colspan="2">Yellow color background</td>
-        <td colspan="2">Purple color background</td>
+        <td colspan="2" style="background-color: yellow; color: black;">Yellow color background</td>
+        <td colspan="2" style="background-color: purple; color: black;">Purple color background</td>
+        </tr>
+
+        <tr>
+        <td rowspan="7">Alpha Scale</td>
         </tr>
 
         <tr>
         
-        <td>Blue Green Alpha 1</td>
-        <td>Green Alpha Scale 1</td>
-        <td>Red Alpha Scale 1</td>
+        <td style="background-color: rgba(0, 0, 255, 1);">Blue Green Alpha 1</td>
+        <td style="background-color: rgba(0, 255, 0, 1);">Green Alpha Scale 1</td>
+        <td style="background-color: rgba(255, 0, 0, 1);">Red Alpha Scale 1</td>
         </tr>
 
         <tr>
-        <td style="">Blue Alpha Scale 0.8</td>
+        <td style="background-color: rgba(0, 0, 255, 0.8);">Blue Alpha Scale 0.8</td>
         <td style="background-color: rgba(0, 255, 0, 0.8);">Green Alpha Scale 0.8</td>
-        <td>Red Alpha Scale 0.8</td>
+        <td style="background-color: rgba(255, 0, 0, 0.8);">Red Alpha Scale 0.8</td>
         </tr>
 
         <tr>
-        <td>Blue Alpha Scale 0.6</td>
-        <td>Green Alpha Scale 0.6</td>
-        <td>Red Alpha Scale 0.6</td>
+        <td style="background-color: rgba(0, 0, 255, 0.6);">Blue Alpha Scale 0.6</td>
+        <td style="background-color: rgba(0, 255, 0, 0.6);">Green Alpha Scale 0.6</td>
+        <td style="background-color: rgba(255, 0, 0, 0.6);">Red Alpha Scale 0.6</td>
         </tr>
 
         <tr>
-        <td>Blue Alpha Scale 0.4</td>
-        <td>Green Alpha Scale 0.4</td>
-        <td>Red Alpha Scale 0.4</td>
+        <td style="background-color: rgba(0, 0, 255, 0.4);">Blue Alpha Scale 0.4</td>
+        <td style="background-color: rgba(0, 255, 0, 0.4);">Green Alpha Scale 0.4</td>
+        <td style="background-color: rgba(255, 0, 0, 0.4);">Red Alpha Scale 0.4</td>
         </tr>
 
         <tr>
-        <td>Blue Alpha Scale 0.2</td>
-        <td>Green Alpha Scale 0.2</td>
-        <td>Red Alpha Scale 0.2</td>
+        <td style="background-color: rgba(0, 0, 255, 0.2);">Blue Alpha Scale 0.2</td>
+        <td style="background-color: rgba(0, 255, 0, 0.2);">Green Alpha Scale 0.2</td>
+        <td style="background-color: rgba(255, 0, 0, 0.2);">Red Alpha Scale 0.2</td>
         </tr>
 
         <tr>
-        <td>Blue Alpha Scale 0</td>
-        <td>Green Alpha Scale 0</td>
-        <td>Red Alpha Scale 0</td>
+        <td style="background-color: rgba(0, 0, 255, 0);">Blue Alpha Scale 0</td>
+        <td style="background-color: rgba(0, 255, 0, 0);">Green Alpha Scale 0</td>
+        <td style="background-color: rgba(255, 0, 0, 0);">Red Alpha Scale 0</td>
         </tr>
 
         <tr>
-        <td colspan="4">HSL. hue 0 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(0, 100%, 50%);">HSL. hue 0 saturation 100% lightness 50%</td>
         </tr>
-        <td colspan="4">HSL. hue 50 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(50, 100%, 50%);">HSL. hue 50 saturation 100% lightness 50%</td>
         </tr>
-        <td colspan="4">HSL. hue 150 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(150, 100%, 50%);">HSL. hue 150 saturation 100% lightness 50%</td>
         </tr>
-        <td colspan="4">HSL. hue 150 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(150, 100%, 50%);">HSL. hue 150 saturation 100% lightness 50%</td>
         </tr>
-        <td colspan="4">HSL. hue 200 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(200, 100%, 50%);">HSL. hue 200 saturation 100% lightness 50%</td>
         </tr>
-        <td colspan="4">HSL. hue 200 saturation 100% lightness 50%</td>
+        <td colspan="4" style="background-color: hsl(250, 100%, 50%);">HSL. hue 200 saturation 100% lightness 50%</td>
         </tr>
     </table>
 </body>
