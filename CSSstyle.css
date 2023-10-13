@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+
+div {
+    border: solid blue;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    color: darkblue;
+}
