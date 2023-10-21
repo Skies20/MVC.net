@@ -1,31 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSSstyle.css">
+    <style>
+    body {
+        background-color: violet;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    a {
+        color: darkred;
+    }
+    
+    li, a {
+        display: block;
+        color: #000;
+
+        text-decoration: none;
+    }
+    
+    #uldaw {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: blueviolet;
+      }
+    </style>
+    <link rel="stylesheet" href="navigationcss.css">
     <title>CSS Page 1</title>
 </head>
 <body>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+            <a href="home ko.html">Introduction</a>
+            </div>
+            </div>
+            
+        <div class="dropdown">
+        <button class="dropbtn">Profile</button>
+            <div class="dropdown-content">
+            <a href="index.html">My Bio</a>
+            </div>
+            </div>
+        <div class="dropdown">
+        <button class="dropbtn">Activity</button>
+            <div class="dropdown-content">
+                <a href="heading.html">Heading</a>
+                <a href="image.html">Image</a>
+                <a href="text formatting.html">Text Formatting</a>
+                <a href="paragraph.html">Sample Paragraph</a>
+                <a href="colored.html">Sample Colors</a>
+                <a href="order.html">Order</a>
+                <a href="CSSpage1.html">CSSpage 1, 2 & 3</a>
+                <a href="InternalCSS.html">Internal CSS</a>
+                <a href="SeatingArrangement.html">Seating Arrangement</a>
+            </div>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">Quiz</button>
+                <div class="dropdown-content">
+            <a href="quiz kunware.html">Quiz# 1</a>
+            </div>
+            </div>
+            </div>
     <h1>CSS Page 1</h1>
-    <div>
+    <div style="background-color: blueviolet;
+    border: solid blue;
+    margin: 10px;">
     <h2>Main Division</h2>
     <ul>
-    <li><a href="CSSpage1.html">CSS Page 1</a></li><br>
-    <li><a href="CSSpage2.html">CSS Page 2</a></li><br>
-    <li><a href="CSSpage3.html">CSS Page 3</a></li><br>
-    </div>
-    <div>
+    <div style="overflow: hidden;
+    background-color: blueviolet;
+    font-family: Arial;">
+    <li style="background-color: blueviolet;"><a href="CSSpage1.html" style=" color: #000; border: 2px dotted blue;">CSS Page 1</a></li>
+    <li style="background-color: blueviolet;"><a href="CSSpage2.html" style=" color: #000; border: 2px dotted blue;">CSS Page 2</a></li>
+    <li style="background-color: blueviolet;"><a href="CSSpage3.html" style=" color: #000; border: 2px dotted blue;">CSS Page 3</a></li>
+    </div></div>
+    <div style="background-color: blueviolet;
+    border: solid blue;
+    margin: 10px;">
     <h3>Secondary Division</h3>
-    <div style="background-color:lightcoral;"><div style="background-color: lightpink;"><h3>Third Division</h3></div>
-    <div style="background-color: lightpink;"><h3>Third Division</h3></div>
+    <div style="background-color:lightcoral; 
+    border: solid blue;
+    margin: 10px;">
+    <div style="background-color: lightpink; 
+    border: solid blue;
+    margin: 10px;"><h3>Third Division</h3></div>
+    <div style="background-color: lightpink; 
+    border: solid blue;
+    margin: 10px;"><h3>Third Division</h3></div>
     </ul>
     </div></div>
-    <div style="background-color: mediumvioletred;">
+    <div style="background-color: mediumvioletred; 
+    border: solid blue;
+    margin: 10px;">
     <h3>Secondary Division</h3>
-    <div style="background-color: rgb(173, 57, 173);"><div style="background-color: violet;"><h4>Third Division</h4></div>
-    <div style="background-color: violet;"><h4>Third Division</h4></div>
+    <div style="background-color: rgb(173, 57, 173); 
+    border: solid blue;
+    margin: 10px;">
+    <div style="background-color: violet; 
+    border: solid blue;
+    margin: 10px;"><h4>Third Division</h4></div>
+    <div style="background-color: violet; 
+    border: solid blue;
+    margin: 10px;"><h4>Third Division</h4></div>
     </div></div>
-    <a href="index.html">back to Home</a>
 </body>
 </html>

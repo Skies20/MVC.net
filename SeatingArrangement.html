@@ -1,40 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        table, th, td {
-            border: 3px solid black;
-            border-collapse: collapse;
-
-        }
-    </style>
+    <link rel="stylesheet" href="navigationcss.css">
 </head>
 <body>
-
-    <h1> Seating Arrangement Table</h1>
-
-    <table>
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Home</button>
+            <div class="dropdown-content">
+            <a href="home ko.html">Introduction</a>
+            </div>
+            </div>
+            
+        <div class="dropdown">
+        <button class="dropbtn">Profile</button>
+            <div class="dropdown-content">
+            <a href="index.html">My Bio</a>
+            </div>
+            </div>
+        <div class="dropdown">
+        <button class="dropbtn">Activity</button>
+            <div class="dropdown-content">
+                <a href="heading.html">Heading</a>
+                <a href="image.html">Image</a>
+                <a href="text formatting.html">Text Formatting</a>
+                <a href="paragraph.html">Sample Paragraph</a>
+                <a href="colored.html">Sample Colors</a>
+                <a href="order.html">Order</a>
+                <a href="CSSpage1.html">CSSpage 1, 2 & 3</a>
+                <a href="InternalCSS.html">Internal CSS</a>
+                <a href="SeatingArrangement.html">Seating Arrangement</a>
+            </div>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">Quiz</button>
+                <div class="dropdown-content">
+            <a href="quiz kunware.html">Quiz# 1</a>
+            </div>
+            </div>
+            </div>
+    <style>
+        body {background-color: violet;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .seatingdiv {
+        border: 5px outset dodgerblue;
+        background-color:rgba(0, 0, 0, 0.7);
+        padding-top: 5px;
+        padding-right: 20px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        }
+        h1 {
+            background-color: dodgerblue;
+            color: black;
+            text-align: center
+        }
+        table, th, td {
+            border:3px outset dodgerblue;
+            border-collapse: collapse;
+        }
+        th, td {
+            margin-left: auto;
+            margin-right: auto
+        }
+        #board {
+            width: 100%;
+            text-align: center;
+        }
+        #teachertable {
+            text-align: center;
+        }
+        #alt {
+            background-color: yellow;
+            color: black;
+            text-align: center
+        }
+        #male {
+            background-color: rgb(91, 255, 255);
+            color: black
+        }
+        #female {
+            background-color: rgb(255, 117, 255);
+            color:black
+        }
+</style>
+        <h1>Seating Arrangement Table</h1>
+        <div class="seatingdiv">
         <br>
-        <th>Black board</th>
-        <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-        <th>Column 4</th>
-        <th>Column 5</th>
-        <th>Column 6</th>
+        <table id="board">
+            <tr>
+            <th colspan="6">Blackboard</th>
+            <td rowspan="9">Hallway</td>
         </tr>
         <tr>
-        <tr>Student 1</tr>
-        <tr>Student 2</tr>
-        <tr>Student 3</tr>
-        <tr>Student 4</tr>
-        <tr>Student 5</tr>
-        <tr>Student 6</tr>
+            <td colspan="6" id="teachertable">Teacher's table</td>
+            </tr>
+            <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+            <td>Column 4</td>
+            <td>Column 5</td>
+            <td>Column 6</td>
+        </tr>
+        <tr>
+            <td id="female">Samio</td>
+            <td id="female">Campo</td>
+            <td id="male">Broqueza</td>
+            <td id="female">Ramiscal</td>
+            <td id="female">Abuyo</td>
+            <td id="female">Ortega</td>
+        </tr>
+        <tr>
+            <td id="male">Chua</td>
+            <td>N/A</td>
+            <td id="male">Sosmeña</td>
+            <td id="male">Brusas</td>
+            <td id="female">Banson</td>
+            <td id="female">Bolibol</td>
+        </tr>
+        <tr>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td id="male">Mahinay</td>
+            <td id="male">Bonifacio</td>
+            <td id="male">Tubera</td>
+            <td id="male">Timan</td>
+        </tr>
+        <tr>
+            <td id="male">Pascual</td>
+            <td id="male">Peiones</td>
+            <td id="male">Ocasla</td>
+            <td id="male">Pasiona</td>
+            <td id="male">Omar</td>
+            <td id="male">Santa Maria</td>
+        </tr>
+        <tr>
+            <td id="male">Villanueva</td>
+            <td id="male">Villaverde</td>
+            <td id="male">Castillo</td>
+            <td id="male">Lumanog</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>N/A</td>
+            <td id="male">Avion</td>
+            <td>N/A</td>
+            <td id="male">Barcelona</td>
+            <td id="male">Develos</td>
+            <td>N/A</td>
         </tr>
     </table>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
+    <br>
+    </div>
+    <br>
+ 
 </body>
 </html>
