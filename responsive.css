@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+html {
+    font-family: "Lucida Sans", san-serif;
+}
+.header {
+    background-color: gold;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.snav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: gold;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+ul.snav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ul.snav li a.active {
+    background-color: darkgoldenrod;
+    color: black;
+}
+ul.snav li a:hover:not(.active) {
+    background-color: darkgoldenrod;
+    color: black;
+}
+div.row {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+.aside {
+    background-color: dodgerblue;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: dodgerblue;
+    color: black;
+    text-align: center;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: dodgerblue;
+    color: peru;
+    box-shadow: 0 1px 3px cyan, 0 1px 2px cyan;
+}
+@media only screen and (max-width: 786px) {
+    /*for tablets: */
+    ul.snav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.snav li a {
+        float: left;
+        padding: 15px;
+    }
+    div.row {margin-left: 0;}
+.col-s-4 {width: 33.33%;}
+}
+@media only screen and (min-width: 1000px) {
+    /*for destop: */
+    .col-4 {width: 33.33%;}
+}
+.menu li:hover {
+    background-color: brown;
+}
+@media screen and (max-width: 500px) {
+    /*for mobile phones: */
+    ul.snav li a {
+        text-align: center;
+        float: none;
+      }
+    [class*=col-] {
+        width: 100%;
+    }
+}
