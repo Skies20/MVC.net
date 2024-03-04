@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+table, th, td, tr{
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: cyan;
+}
+
+th, tr, td{
+    background-color: #FFFF2BB2;
+    color: black;
+}
+button{
+    background-color: greenyellow;
+}

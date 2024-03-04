@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="operator.css">
+        <script src="operator.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Answer</th>
+        </tr>
+        <tr>
+            <td><button onclick="addition()">addition mo</button></td>
+            <td><p id="addition">Sagot dito</p></td>
+        </tr>
+        <tr>
+            <td><button onclick="subtraction()">subtraction mo</button></td>
+            <td><p id="subtraction">Sagot dito</p></td>
+        </tr>
+        <tr>
+            <td><button onclick="multiplication()">multiplication mo</button></td>
+            <td><p id="multiplication">Sagot dito</p></td>
+        </tr>
+        <tr>
+            <td><button onclick="division()">division mo</button></td>
+            <td><p id="division">Sagot dito</p></td>
+        </tr>
+    </table>
+    <table>
+        <th>Comparison</th>
+        <th>Second Value</th>
+        <th>Comparison</th>
+        <th>Answer</th>
+    <tr>
+        <td>
+            <label for="num1"><b>Pili ka number</b></label>
+            <select id="num1" name="numA">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </td>
+        <td>
+            <label for="num2"><b>Pili ka number</b></label>
+            <select id="num2" name="numB">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </td>
+        <td>
+        <label>Is the first number</label>
+        <button onclick="equalsOperators()">Equals</button>
+        <label>to the second number</label>
+        </td>
+        <td><p id="equalsAns">Dito sagot</p></td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+                <input type="range" id="num3" oninput="x.value=num3.value">
+                <output id="x"></output>
+            </form>
+        </td>
+        <td>
+            <form>
+                <input type="range" id="num4" oninput="x.value=num3.value">
+                <output id="x"></output>
+            </form>
+        </td>
+        <td>
+            <label>Is the first number</label>
+            <button onclick="notequalsOperators()">Not Equals</button>
+            <label>to the second number</label>
+        </td>
+        <td><p id="notequalsAns">Dito sagot</p></td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" id="num5">
+        </td>
+        <td>
+            <input type="number" id="num6">
+        </td>
+        <td>
+            <label>Is the first number</label>
+            <button onclick="lessthanOperators()">Less Than</button>
+            <label>to the second number</label>
+        </td>
+        <td><p id="lessthanAns">Dito sagot</p></td>
+    </tr>
+    <tr>
+        <td>
+            <form>
+            <label>10</label>
+            <input type="radio" id="r1" value="10" name="num7">
+            <label>20</label>
+            <input type="radio" id="r2" value="20" name="num7">
+            <label>30</label>
+            <input type="radio" id="r3" value="30" name="num7">
+            <label>40</label>
+            <input type="radio" id="r4" value="40" name="num7">
+            <label>50</label>
+            <input type="radio" id="r5" value="50" name="num7">
+        </form>
+        </td>
+        <td>
+            <form>
+            <label>15</label>
+            <input type="radio" id="r6" value="15" name="num8">
+            <label>25</label>
+            <input type="radio" id="r7" value="25" name="num8">
+            <label>35</label>
+            <input type="radio" id="r8" value="35" name="num8">
+            <label>45</label>
+            <input type="radio" id="r9" value="45" name="num8">
+            <label>55</label>
+            <input type="radio" id="r10" value="55" name="num8">
+        </form>
+        </td>
+        <td>
+            <label>Is the first number</label>
+            <button onclick="greaterthanOperators()">Greater Than</button>
+            <label>to the second number</label>
+        </td>
+        <td><p id="greaterthanAns">Dito sagot</p></td>
+    </tr>
+    </table>
+    
+
+    <button onclick="assignmentaddition()">assignmentaddition mo</button>
+    <br>
+    <p id="assignmentaddition">Sagot dito</p>
+
+    <button onclick="assignmentsubtraction()">assignmentsubtraction mo</button>
+    <br>
+    <p id="assignmentsubtraction">Sagot dito</p>
+
+    <button onclick="assignmentmultiplication()">assignmentmultiplication mo</button>
+    <br>
+    <p id="assignmentmultiplication">Sagot dito</p>
+
+    <button onclick="assignmentdivision()">assignmentdivision mo</button>
+    <br>
+    <p id="assignmentdivision">Sagot dito</p>
+
+    
+</body>
+</html>

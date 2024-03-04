@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="longTestMath.css">
+    <script src="longTestMath.js"></script>
+    <title>Long Test</title>
+<style>
+            .glow {
+        color: #ffffff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+        @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #ffda34, 0 0 20px #ffda34, 0 0 30px #ffda34, 0 0 40px #000000, 
+                       0 0 50px #ffd900, 0 0 60px #ffd900, 0 0 70px #ffd900;
+        }
+        to {
+          text-shadow: 0 0 20px #ff000d, 0 0 30px #ff000d, 0 0 40px #ff000d, 0 0 50px #ff4da6,
+                       0 0 60px #ff7f4d, 0 0 70px #ff7f4d, 0 0 80px #ff7f4d;
+        }
+      }
+</style>
+</head>
+<body style="background-image: url('images/blue-purple.jpg');">
+<div>
+    <h1 style="text-align: 
+        center; color: white;
+        text-align: center;" 
+        class="glow">LONG TEST NI BARCELONA, IRENEO III</h1>
+</div>
+    <table>
+        <tr>
+            <th>Operator</th>
+            <th>Second Value</th>
+            <th>Buttons</th>
+        </tr>
+        <tr>
+            <td><input type="first1" id="num1"></td>
+            <td><input type="second1" id="num2"></td>
+            <td><button onclick="AddOpe()">+</button>
+                <button onclick="SubOpe()">-</button>
+                <button onclick="MulOpe()">*</button>
+                <button onclick="DifOpe()">/</button>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Comparison</th>
+            <th>Second Value</th>
+            <th>Buttons</th>
+        </tr>
+        <tr>
+            <td><input type="first2" id="num3"></td>
+            <td><input type="second2" id="num4"></td>
+            <td><button onclick="EOpe()">==</button>
+                <button onclick="NEOpe()">!=</button>
+                <button onclick="LOpe()"><=</button>
+                <button onclick="GOpe()">>=</button>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th>Assignment</th>
+            <th>Second Value</th>
+            <th>Buttons</th>
+        </tr>
+        <tr>
+            <td><input type="first3" id="num5"></td>
+            <td><input type="second3" id="num6"></td>
+            <td><button onclick="AssAddOpe()">+=</button>
+                <button onclick="AssSubOpe()">-=</button>
+                <button onclick="AssMulOpe()">*=</button>
+                <button onclick="AssDivOpe()">/=</button>
+            </td>
+        </tr>
+    </table>
+    <table>
+    <td><p id="answer">Answer Here!!</p></td>
+    </table>
+</body>
+</html>

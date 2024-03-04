@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="gawagawa.js"></script>
+    <title>Mathematic as a tool</title>
+</head>
+<style>
+    th {
+        padding-right: 50px;
+        padding-bottom: 30px;
+        border: 2px white solid;
+    }
+</style>
+<body>
+    <h1>Mathematics as a tool</h1>
+<table>
+    <tr>
+        <th>Type of Statement</th>
+        <th>Connective</th>
+        <th>Statement</th>
+        <th>Symbolic Form</th>
+    </tr>
+    <tr>
+        <th>Negation</th>
+        <th>Not</th>
+        <th>Not p</th>
+        <th>~ p</th>
+    </tr>
+    <tr>
+        <th>Conjunction</th>
+        <th>And</th>
+        <th>p and q</th>
+        <th>p ^ q</th>
+    </tr>
+    <tr>
+        <th>Disjunction</th>
+        <th>Or</th>
+        <th>p or q</th>
+        <th>p v q</th>
+    </tr>
+    <tr>
+        <th>Conditional</th>
+        <th>If... then</th>
+        <th>If p, then q</th>
+        <th>p → q</th>
+    </tr>
+    <tr>
+        <th>Biconditional</th>
+        <th>If and only if</th>
+        <th>p if and only if q</th>
+        <th>p ↔ q</th>
+    </tr>
+</table>
+<h3>p: I am going to make a juice</h3>
+<h3>q: I am going to make a sandwich</h3>
+
+<ol>
+    <li>Negation</li>
+    <button onclick="negStatement()">Translate using "~"</button>
+    <li>Conjunction</li>
+    <button onclick="conjStatement()">Translate using "^"</button>
+    <li>Disjunction</li>
+    <button onclick="disStatement()">Translate using "v"</button>
+    <li>Conditional</li>
+    <button onclick="condStatement()">Translate using "→"</button>
+    <li>Biconditional</li>
+    <button onclick="biStatement()">Translate using "↔"</button>
+</ol>
+</body>
+</html>

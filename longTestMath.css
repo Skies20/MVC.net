@@ -1,0 +1,20 @@
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+table, th, td, tr{
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    background-color: violet;
+}
+th, tr, td{
+    background-color: #FFFF2BB2;
+    color: cyan;
+}
+button{
+    background-color: cyan;
+}
