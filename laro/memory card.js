@@ -1,6 +1,8 @@
 const cards = document.querySelectorAll(".card");
+flipsTag = document.querySelector(".flips b");
 
 let matched = 0;
+let matchedCard = 0;
 let cardOne, cardTwo;
 let disableDeck = false;
 
