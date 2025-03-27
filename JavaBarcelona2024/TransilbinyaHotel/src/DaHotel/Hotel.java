@@ -1,0 +1,5 @@
+package DaHotel;
+
+class Hotel {
+
+}
